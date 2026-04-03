@@ -1,0 +1,176 @@
+2026-04-03 17:04:10 [ERROR]: ❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-03 17:22:56 [ERROR]: ❌ MongoDB connection failed: 08670000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 17:24:51 [ERROR]: ❌ MongoDB connection failed: 4C230000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 17:25:42 [ERROR]: ❌ MongoDB connection failed: 38840000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 17:26:37 [ERROR]: ❌ MongoDB connection failed: 80550000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 17:36:12 [ERROR]: ❌ MongoDB connection failed: C8560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 18:18:07 [ERROR]: TypeError: Cannot read properties of undefined (reading 'secret')
+    at userSchema.methods.generateAccessToken (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\models\User.js:71:66)
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:29:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 18:19:38 [ERROR]: Error: Email already registered
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:20:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 18:20:27 [ERROR]: TypeError: Cannot read properties of undefined (reading 'secret')
+    at userSchema.methods.generateAccessToken (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\models\User.js:71:66)
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:29:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 18:20:42 [ERROR]: Error: Email already registered
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:20:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 18:21:23 [ERROR]: TypeError: Cannot read properties of undefined (reading 'secret')
+    at userSchema.methods.generateAccessToken (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\models\User.js:71:66)
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:29:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 18:23:54 [ERROR]: TypeError: Cannot read properties of undefined (reading 'secret')
+    at userSchema.methods.generateAccessToken (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\models\User.js:71:66)
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:29:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 18:29:56 [ERROR]: Error: Email already registered
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:20:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 18:30:07 [ERROR]: TypeError: Cannot read properties of undefined (reading 'refreshSecret')
+    at userSchema.methods.generateRefreshToken (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\models\User.js:84:47)
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:30:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 18:32:05 [ERROR]: Error: Email already registered
+    at AuthService.register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\authService.js:20:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async register (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\authController.js:26:20)
+2026-04-03 19:19:30 [ERROR]: ❌ Scheduler error: C0380000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 19:19:32 [ERROR]: MongoServerSelectionError: C0380000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+    at Topology.selectServer (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\query.js:4627:63)
+2026-04-03 19:20:30 [ERROR]: ❌ Scheduler error: C0380000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 19:20:44 [ERROR]: SyntaxError: Unexpected token '"', ""email": ""... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+2026-04-03 19:20:54 [ERROR]: SyntaxError: Unexpected token '"', ""email": ""... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+2026-04-03 19:21:03 [ERROR]: SyntaxError: Unexpected token '"', ""email": ""... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+2026-04-03 19:21:30 [ERROR]: ❌ Scheduler error: C0380000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 19:21:43 [ERROR]: SyntaxError: Expected ',' or '}' after property value in JSON at position 28 (line 2 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-04-03 19:22:25 [ERROR]: MongoServerSelectionError: connect ECONNREFUSED 159.41.228.101:27017
+    at Topology.selectServer (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\query.js:4627:63)
+2026-04-03 19:22:30 [ERROR]: ❌ Scheduler error: connect ECONNREFUSED 159.41.228.101:27017
+2026-04-03 19:23:30 [ERROR]: ❌ Scheduler error: connect ECONNREFUSED 159.41.228.101:27017
+2026-04-03 19:24:51 [ERROR]: ❌ MongoDB connection failed: 407E0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 80
+
+2026-04-03 19:26:40 [ERROR]: ❌ MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-03 19:28:39 [ERROR]: ❌ MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-03 19:57:40 [ERROR]: Error: Please connect your twitter account first
+    at PostService.createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\postService.js:43:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\postController.js:42:18)
+2026-04-03 20:00:02 [ERROR]: Error: Please connect your instagram account first
+    at PostService.createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\postService.js:43:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\postController.js:42:18)
+2026-04-03 20:04:06 [ERROR]: Error: Please connect your instagram account first
+    at PostService.createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\postService.js:43:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\postController.js:42:18)
+2026-04-03 20:18:47 [ERROR]: ValidationError: Post validation failed: platform: Path `platform` is required., user: Path `user` is required., scheduledAt: Path `scheduledAt` is required., status: `draft` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+2026-04-03 20:29:06 [ERROR]: Error: Please connect your instagram account first
+    at PostService.createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\postService.js:43:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\postController.js:42:18)
+2026-04-03 20:30:39 [ERROR]: Error: Please connect your instagram account first
+    at PostService.createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\postService.js:43:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\postController.js:42:18)
+2026-04-03 20:30:42 [ERROR]: Error: Please connect your instagram account first
+    at PostService.createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\postService.js:43:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async createPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\controllers\postController.js:42:18)
+2026-04-03 20:33:16 [ERROR]: ValidationError: Post validation failed: platform: Path `platform` is required., user: Path `user` is required., scheduledAt: Path `scheduledAt` is required., status: `draft` is not a valid enum value for path `status`.
+    at Document.invalidate (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+2026-04-03 20:38:02 [ERROR]: CastError: Cast to ObjectId failed for value "69cdf502687dc452625e7a5" (type string) at path "_id" for model "Post"
+    at SchemaObjectId.cast (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\schema\objectId.js:253:11)
+    at SchemaType.applySetters (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\schemaType.js:1288:12)
+    at SchemaType.castForQuery (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\schemaType.js:1724:17)
+    at cast (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\query.js:5060:12)
+    at Query._castConditions (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\query.js:2374:10)
+    at model.Query._findOne (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\query.js:2697:8)
+    at model.Query.exec (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\node_modules\mongoose\lib\query.js:4627:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async PostService.publishPost (C:\Users\KRITIK KUMAR\Documents\Automation project\backend\src\services\postService.js:148:18)
